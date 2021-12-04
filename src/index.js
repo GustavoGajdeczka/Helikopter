@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Helikopter from './helikopter';
+import Musica from './musica';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Musica></Musica>
+    <Helikopter />
   </React.StrictMode>,
   document.getElementById('root')
 );
